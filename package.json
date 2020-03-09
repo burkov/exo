@@ -1,5 +1,5 @@
 {
-  "name": "@abu/exo",
+  "name": "@aburkov/exo",
   "version": "1.0.0",
   "description": "Utility to exorcise сritters from outer planes (like Gradle daemons) written in godblessed language",
   "main": "index.js",
@@ -7,6 +7,9 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "up": "ncu -u && npm i && git commit -am 'ncu up!'"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
