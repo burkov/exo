@@ -1,0 +1,40 @@
+{
+  "name": "@abu/exo",
+  "version": "1.0.0",
+  "description": "Utility to exorcise сritters from outer planes (like Gradle daemons) written in godblessed language",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "up": "ncu -u && npm i && git commit -am 'ncu up!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/burkov/exo.git"
+  },
+  "bin": {
+    "exo": "src/index.ts"
+  },
+  "keywords": [
+    "jps",
+    "java",
+    "gradle",
+    "kill"
+  ],
+  "author": "abu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burkov/exo/issues"
+  },
+  "homepage": "https://github.com/burkov/exo#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "np": "^6.2.0",
+    "npm-check-updates": "^4.0.4",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
