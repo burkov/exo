@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "build": "tsc",
+    "publish": "tsc && chmod +x lib/index.js && np --no-publish && npm publish",
     "up": "ncu -u && npm i && git commit -am 'ncu up!'"
   },
   "publishConfig": {
