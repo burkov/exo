@@ -1,6 +1,6 @@
 {
   "name": "@aburkov/exo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Utility to exorcise сritters from outer planes (like Gradle daemons) written in godblessed language",
   "main": "index.js",
   "scripts": {
