@@ -1,6 +1,6 @@
 {
   "name": "@aburkov/gravel",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Utility to exorcise сritters from outer planes (like Gradle daemons) written in godblessed language",
   "main": "index.js",
   "scripts": {
