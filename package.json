@@ -13,7 +13,7 @@
     "url": "git+ssh://git@github.com/burkov/exo.git"
   },
   "bin": {
-    "exo": "src/index.ts"
+    "exo": "lib/index.js"
   },
   "keywords": [
     "jps",
