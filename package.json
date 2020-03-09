@@ -1,5 +1,5 @@
 {
-  "name": "@aburkov/exo",
+  "name": "@aburkov/gravel",
   "version": "1.2.1",
   "description": "Utility to exorcise сritters from outer planes (like Gradle daemons) written in godblessed language",
   "main": "index.js",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/burkov/exo.git"
+    "url": "git+ssh://git@github.com/burkov/gravel.git"
   },
   "bin": {
-    "exo": "lib/index.js"
+    "gravel": "lib/index.js"
   },
   "keywords": [
     "jps",
@@ -27,9 +27,9 @@
   "author": "abu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/burkov/exo/issues"
+    "url": "https://github.com/burkov/gravel/issues"
   },
-  "homepage": "https://github.com/burkov/exo#readme",
+  "homepage": "https://github.com/burkov/gravel#readme",
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.1.1",

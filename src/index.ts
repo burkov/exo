@@ -13,13 +13,13 @@ import inquirer from 'inquirer';
 shelljs.config.fatal = true;
 
 commander
-  .name('exo')
+  .name('gravel')
   .description('Utility to exorcise сritters from outer planes (like Gradle daemons) written in godblessed language')
 
 const checkJpsInstalled = () => {
   if (shelljs.which('jps') === null) {
     console.log(`Command 'jps' is not found. You PC is innocent, nothing to banish here.`);
-    console.log(`If you still think it is possessed by daemons check your PATH variable and re-run exo.`);
+    console.log(`If you still think it is possessed by daemons check your PATH variable and re-run gravel.`);
     process.exit(0);
   }
 };
